@@ -2,6 +2,12 @@ h1 {
     color: orangered;
 }
 
+p {
+    color: orangered;
+}
+
 .outer {
+    display: flex;
     
+
 }

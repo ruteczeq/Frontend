@@ -9,8 +9,27 @@
 <body>
     <h1>Employment Form</h1>
     <div class="outer">
-        <p>First Name</p>
-        <input type="text" id="name" name="name" required minlength="3" size="10" />
+        <div class="textbox_container">
+            <p>First Name</p>
+            <input type="text" id="first_name" name="first_name" required minlength="3" size="10" />
+        </div>
+        <div class="textbox_container">
+            <p>Last Name</p>
+            <input type="text" id="last_name" name="last_name" required minlength="3" size="10" />
+        </div>
+        <div class="textbox_container">
+            <p>E-mail</p>
+            <input type="email" id="email" name="email" required minlength="5" size="10" />
+        </div>
+        <div class="textbox_container">
+            <p>Phone</p>
+            <input type="number" id="phone" name="phone" required minlength="9" maxlength="9" size="10" />
+        </div>
+        <div class="textbox_container">
+            <p>Date of birth</p>
+            <input type="date" id="birth" name="birth" required />
+
+        </div>
 
     </div>
 </body>
