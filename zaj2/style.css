@@ -1,0 +1,97 @@
+.headline {
+    background: red;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 30rem;
+}
+
+.upper_bun {
+    background: #DEB887;
+    width: 26rem;
+    height: 5rem;
+    border-radius: 4rem 4rem 1rem 1rem;
+    border-bottom: 1rem solid #D3A15F;
+}
+
+.cheese {
+    background: #FFD700;
+    width: 28rem;
+    height: 1rem;
+    border-bottom: 0.25rem solid #DAA520;
+}
+
+.tomato {
+    background: #FF0000;
+    width: 20rem;
+    height: 2rem;
+    border-bottom: 0.25rem solid #DC143C;
+}
+
+.beef {
+    background: #CC6633;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border-bottom: 0.25rem solid #993300; 
+}
+
+.onion {
+    background: #800080;
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.onion_pattern {
+    background: pink;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.meatballs_container {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.meatballs {
+    background: #A52A2A;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 90%;
+
+}
+
+.cucumber {
+    background: #90EE90;
+     width: 18rem;
+     height: 2rem;
+     border-radius: 0rem 0rem 5rem 5rem;
+     border-bottom: 1rem solid #008000;
+}
+
+.bottom_bun {
+    background: #DEB887;
+    width: 26rem;
+    height: 2.5rem;
+    border-radius: 1rem 1rem 4rem 4rem;
+    border-top: 1rem solid #D3A15F;
+}
